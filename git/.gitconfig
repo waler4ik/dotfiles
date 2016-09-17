@@ -32,5 +32,5 @@
 	ll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local -10
         lll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local --stat -C -5
 [user]
-	name =  Valerii Serediouk
-	email = Valerii.Serediouk@alumni.hu-berlin.de
+	name =  user
+	email = email@email.com
