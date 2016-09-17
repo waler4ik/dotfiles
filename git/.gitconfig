@@ -1,0 +1,36 @@
+[push]
+	default = matching
+[core]
+	trustctime = false
+	editor = vim
+	filemode = false
+	autocrlf = input
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=3600
+[merge]
+	tool = meld
+[mergetool]
+	keeptemporaries = false
+	keepbackups = false
+	prompt = false
+	trustexitcode = false
+	keepBackup = false
+[alias]
+	st = status
+	last = log -1 --stat
+	cp = cherry-pick
+	co = checkout
+	cl = clone
+	ci = commit
+	br = branch
+	unstage = reset HEAD --
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+        l = log --pretty=format:'%C(auto)%h %d %s %Cgreen(%ad) %Cblue%an <%ae>%Creset' -10
+	ll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local -10
+        lll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local --stat -C -5
+[user]
+	name =  Valerii Serediouk
+	email = Valerii.Serediouk@alumni.hu-berlin.de
