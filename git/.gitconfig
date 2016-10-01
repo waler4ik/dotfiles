@@ -1,5 +1,3 @@
-[push]
-	default = matching
 [core]
 	trustctime = false
 	editor = vim
