@@ -1,14 +1,13 @@
 [core]
 	trustctime = false
-	editor = vim
-	filemode = false
+	editor = vi
 	autocrlf = input
 [color]
 	ui = true
 [credential]
 	helper = cache --timeout=3600
 [merge]
-	tool = meld
+	tool = kdiff3
 [mergetool]
 	keeptemporaries = false
 	keepbackups = false
@@ -26,9 +25,9 @@
 	unstage = reset HEAD --
 	dc = diff --cached
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
-        l = log --pretty=format:'%C(auto)%h %d %s %Cgreen(%ad) %Cblue%an <%ae>%Creset' -10
-	ll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local -10
-        lll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local --stat -C -5
+        l = log --pretty=format:'%C(auto)%h %d %s %Cgreen(%ad) %Cblue%an <%ae>%Creset' -50
+	ll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local -50
+        lll = log --pretty=format:'%C(auto)%h %d %Cgreen(%ad) %Cblue%an <%ae>%Creset%n%s%n%n%b' --date=local --stat -C -20
 [user]
-	name =  user
-	email = email@email.com
+	name =  Valerii Serediouk
+	email = v.serediouk@de.ccv.eu
