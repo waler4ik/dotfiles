@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="Wine_and_Salad_22112017">
+<style-scheme version="1.0" name="Wine_and_Salad_20191121">
   <style name="Text" foreground="#00008b" background="#ffffff"/>
   <style name="Link" foreground="#0000ff"/>
   <style name="Selection" foreground="#ffffff" background="#55aaff"/>
@@ -26,6 +26,8 @@
   <style name="Keyword" foreground="#0000ff"/>
   <style name="PrimitiveType" foreground="#0000ff"/>
   <style name="Operator" foreground="#000000"/>
+  <style name="Overloaded Operator" foreground="#00677c"/>
+  <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#b8860b" italic="true"/>
   <style name="Label" foreground="#808000"/>
   <style name="Comment" foreground="#ff8c00"/>
@@ -59,7 +61,8 @@
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
-  <style name="Declaration" foreground="#000000" background="#ffffff"/>
+  <style name="Declaration" foreground="#d11238" background="#ffffff"/>
+  <style name="FunctionDefinition" foreground="#d11238"/>
   <style name="OutputArgument" foreground="#000000" background="#ffffff" italic="true"/>
   <style name="LastStyleSentinel" foreground="#808000"/>
 </style-scheme>
